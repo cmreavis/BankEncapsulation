@@ -6,7 +6,7 @@ var firstCustomer = new BankAccount();
 //Deposit funds
 firstCustomer.Deposit(40000);
 
-Console.WriteLine($"New balance: " + firstCustomer.GetBalance());
+//Console.WriteLine($"New balance: " + firstCustomer.GetBalance());
 //Withdraw funds
 firstCustomer.Withdraw(3200);
 
